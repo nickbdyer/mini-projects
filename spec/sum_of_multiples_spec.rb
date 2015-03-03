@@ -10,6 +10,14 @@ describe MultiplesSum do
     expect(MultiplesSum.is_divisible_by_three?(1)).to be false
   end
 
+  it "knows if a number is divisible by 5" do
+    expect(MultiplesSum.is_divisible_by_five?(5)).to be true
+  end
+
+  it "knows if a number is not divisible by 5" do
+    expect(MultiplesSum.is_divisible_by_five?(1)).to be false
+  end
+
 end
 
 
